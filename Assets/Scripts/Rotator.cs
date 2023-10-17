@@ -1,7 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 
-public class RotateY : MonoBehaviour
+public class Rotator : MonoBehaviour
 {
     [SerializeField] private float _duration = 5f;
 

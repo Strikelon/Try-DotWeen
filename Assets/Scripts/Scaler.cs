@@ -1,7 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 
-public class Scaling : MonoBehaviour
+public class Scaler : MonoBehaviour
 {
     [SerializeField] private Vector3 _targetScale;
     [SerializeField] private float _duration = 3f;

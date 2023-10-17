@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-public class MoveX : MonoBehaviour
+public class Mover : MonoBehaviour
 {
     [SerializeField] private float _moveDistance = 10f;
     [SerializeField] private float _duration = 5f;

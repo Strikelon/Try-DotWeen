@@ -7,7 +7,7 @@ public class TextChanger : MonoBehaviour
     [SerializeField] private float _duration = 2f;
     [SerializeField] private Text _text;
 
-    void Start()
+    private void Start()
     {
         Sequence sequence = DOTween.Sequence();
         sequence.Append(_text.DOText("Замененный текст.", _duration));
